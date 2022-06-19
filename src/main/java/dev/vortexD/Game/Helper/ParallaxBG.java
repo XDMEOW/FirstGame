@@ -29,23 +29,23 @@ public class ParallaxBG {
         layers = new Image[5];
 
         //First Layer
-        layers[0] = new ImageIcon("D:\\DEV\\SomeGame\\src\\main\\resources\\Background\\sky.png").getImage();
+        layers[0] = new ImageIcon("resources/Background/sky.png").getImage();
         layerSpeedFactor[0] = 1;
         currentLayerX[0] = 0;
         //Second Layer
-        layers[1] = new ImageIcon("D:\\DEV\\SomeGame\\src\\main\\resources\\Background\\clouds_1.png").getImage();
+        layers[1] = new ImageIcon("resources/Background/clouds_1.png").getImage();
         layerSpeedFactor[1] = 1.2;
         currentLayerX[1] = 0;
         //Third Layer
-        layers[2] = new ImageIcon("D:\\DEV\\SomeGame\\src\\main\\resources\\Background\\clouds_2.png").getImage();
+        layers[2] = new ImageIcon("resources/Background/clouds_2.png").getImage();
         layerSpeedFactor[2] = 1.4;
         currentLayerX[2] = 0;
         //Fourth Layer
-        layers[3] = new ImageIcon("D:\\DEV\\SomeGame\\src\\main\\resources\\Background\\rocks.png").getImage();
+        layers[3] = new ImageIcon("resources/Background/rocks.png").getImage();
         layerSpeedFactor[3] = 1.8;
         currentLayerX[3] = 0;
         //Fifth Layer
-        layers[4] = new ImageIcon("D:\\DEV\\SomeGame\\src\\main\\resources\\Background\\ground.png").getImage();
+        layers[4] = new ImageIcon("resources/Background/ground.png").getImage();
         layerSpeedFactor[4] = 2.5;
         currentLayerX[4] = 0;
 
